@@ -5,8 +5,8 @@ Gwanda Fisa, a small SME selling thrifted shoes, needed a low-cost, user-friendl
 ## Pipeline Components
 - **Data Ingestion**: Google Sheets, chosen for its free access, ease of use for non-technical staff, suitability for low to moderate data volumes, and real-time collaboration for multiple users.
 - **Data Extraction**: Google Sheets API, selected for its free cost and seamless integration with Google Sheets.
-- **Data Transformation**: Python’s pandas library, used for its flexibility in cleaning, aggregating, and formatting data.
-- **Data Loading**: PostgreSQL database on Aiven’s cloud platform, chosen for reliability, data integrity, and scalability.
+- **Data Transformation**: Python’s pandas library.
+- **Data Loading**: PostgreSQL database on Aiven’s cloud platform for reliability, data integrity, and scalability.
 
 ## Limitations
 1. **Scalability**: Google Sheets struggles with large datasets (>10,000 rows), limiting growth.
